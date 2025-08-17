@@ -9,7 +9,7 @@ const filePreview = fileUploadWrapper.querySelector(".file-preview");
 const themeToggleBtn = document.querySelector("#theme-toggle-btn");
 
 // API Setup
-const API_KEY = "AIzaSyAj4nFrQSIHERtkWr7ZM_Uz8_IqURLSvIM";
+const API_KEY = "AIzaSyBpgbbtc4boLjQ-woju5PwGdt-sZG2paZ8";
 const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${API_KEY}`;
 
 let controller, typingInterval;
